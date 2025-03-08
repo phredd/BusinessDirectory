@@ -1,0 +1,28 @@
+{
+	"name": "annuaire-entreprises",
+	"version": "1.0.0",
+	"description": "Annuaire d'entreprises locales avec carte interactive",
+	"main": "index.js",
+	"scripts":
+	{
+		"dev": "webpack --mode development",
+		"build": "webpack --mode production --config webpack.config.js",
+		"watch": "webpack --watch --mode development"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies":
+	{
+		"bootstrap": "^5.3.3",
+		"leaflet": "^1.9.4",
+		"leaflet.markercluster": "^1.5.3",
+		"@fortawesome/fontawesome-free": "^6.5.1"
+	},
+	"devDependencies":
+	{
+		"css-loader": "^6.9.0",
+		"style-loader": "^3.3.4",
+		"webpack": "^5.89.0",
+		"webpack-cli": "^5.1.4"
+	}
+}
